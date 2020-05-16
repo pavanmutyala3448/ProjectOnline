@@ -1,0 +1,839 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: #0001;
+  margin: 0;
+  height:50px;
+
+}
+nav ul{
+  margin: 0;
+  text-align: right;
+
+}
+nav ul li{
+  list-style-type:  none;
+display: inline-block;
+margin-top: 20px;
+margin-left: 40px;
+margin-right: 40px;
+font-size: 25px;
+}
+nav ul li a{
+  text-decoration: none;
+  color:white;
+
+}
+nav ul li a:hover{
+  text-decoration:1px wavy black;
+  color:#0009;
+  font-size: 30px;
+
+}
+.header{
+  padding: 0;
+  margin:0;
+  text-align: center;
+  background-image: url('shop.jpg');
+  background-size: cover;
+  height:50rem;
+}
+
+.header h1{
+  font-size:70px;
+  color:brown;
+  font-family: 'Parisienne', cursive;
+    margin: 0;
+    margin-top: 40px;
+  padding: 0;
+
+
+}
+form{
+  margin-top: 12rem;
+}
+.header .text-1{
+  width:40%;
+  height:40px;
+  border-radius:14px;
+  border: none;
+  background-color:#0004;
+  color:white;
+  outline:none;
+  outline-style: none;
+  text-align: center;
+}
+.header .button-1{
+margin-top:1rem;
+width: 7%;
+height: 45px;
+background-image: linear-gradient(#0009,#0002);
+border-radius: 2rem;
+color:white;
+font-size: 13px;
+outline-style: none;
+}
+::placeholder{
+  color: white;
+  font-size: 16px;
+}
+#middle{
+  width:100%;
+  display: flex;
+  height:500px;
+}
+.one{
+  width:400px;
+  height:400px;
+padding: 0;
+margin: 0;
+margin-left: 60px;
+margin-top: 40px;
+
+}
+.one .iphone{
+width: 400px;
+height: 400px;
+margin: 0;
+padding: 0;
+
+}
+.mobile{
+  font-size: 20px;
+  text-align: center;
+}
+.mobile a{
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+}
+.mobile a:hover{
+  color:blue;
+  font-size: 30px;
+}
+.second{
+  width:400px;
+  height:400px;
+padding: 0;
+margin: 0;
+margin-left: 60px;
+margin-top: 40px;
+
+}
+.second .homef{
+width: 400px;
+height: 400px;
+margin: 0;
+padding: 0;
+
+}
+.home{
+  font-size: 20px;
+  text-align: center;
+}
+.home a{
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+}
+.home a:hover{
+ color:blue;
+ font-size: 30px;
+}
+.third{
+  width:400px;
+  height:400px;
+padding: 0;
+margin: 0;
+margin-left: 60px;
+margin-top: 40px;
+
+}
+.third .shoe{
+width: 400px;
+height: 400px;
+margin: 0;
+padding: 0;
+
+}
+.shoes{
+  font-size: 20px;
+  text-align: center;
+}
+.shoes a{
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+}
+.shoes a:hover{
+ color:blue;
+ font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.last{
+  width: 100%;
+  height:500px;
+  display: flex;
+}
+.last .one{
+  width:400px;
+  height:400px;
+padding: 0;
+margin: 0;
+margin-left: 60px;
+margin-top: 40px;
+
+}
+.last .one .cloth{
+width: 400px;
+height: 400px;
+margin: 0;
+padding: 0;
+
+}
+.clothes{
+  font-size: 20px;
+  text-align: center;
+}
+.clothes a{
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+}
+.clothes a:hover{
+ color:blue;
+ font-size: 30px;
+}
+.last .second{
+  width:400px;
+  height:400px;
+padding: 0;
+margin: 0;
+margin-left: 60px;
+margin-top: 40px;
+
+}
+.last .second .head{
+width: 400px;
+height: 400px;
+margin: 0;
+padding: 0;
+
+}
+.heads{
+  font-size: 20px;
+  text-align: center;
+}
+.heads a{
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+}
+.heads a:hover{
+ color:blue;
+ font-size: 30px;
+}
+.last .third{
+  width:400px;
+  height:400px;
+padding: 0;
+margin: 0;
+margin-left: 60px;
+margin-top: 40px;
+
+}
+.last .third .suit{
+width: 400px;
+height: 400px;
+margin: 0;
+padding: 0;
+
+}
+.suits{
+  font-size: 20px;
+  text-align: center;
+}
+.suits a{
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+}
+.suits  a:hover{
+  color:blue;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  width: 100%;
+  height:500px;
+  display: flex;
+}
+.footer .one{
+  width:400px;
+  height:400px;
+padding: 0;
+margin: 0;
+margin-left: 60px;
+margin-top: 40px;
+
+}
+.footer .one .cam{
+width: 400px;
+height: 400px;
+margin: 0;
+padding: 0;
+
+}
+.cams{
+  font-size: 20px;
+  text-align: center;
+}
+.cams a{
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+}
+.cams a:hover{
+ color:blue;
+ font-size: 30px;
+}
+.footer .second{
+  width:400px;
+  height:400px;
+padding: 0;
+margin: 0;
+margin-left: 60px;
+margin-top: 40px;
+
+}
+.footer .second .lap{
+width: 400px;
+height: 400px;
+margin: 0;
+padding: 0;
+
+}
+.laps{
+  font-size: 20px;
+  text-align: center;
+}
+.laps a{
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+}
+.laps a:hover{
+ color:blue;
+ font-size: 30px;
+}
+.footer .third{
+  width:400px;
+  height:400px;
+padding: 0;
+margin: 0;
+margin-left: 60px;
+margin-top: 40px;
+
+}
+.footer .third .cass{
+width: 400px;
+height: 400px;
+margin: 0;
+padding: 0;
+
+}
+.cases{
+  font-size: 15px;
+  text-align: center;
+}
+.cases a{
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+}
+.cases  a:hover{
+  color:blue;
+  font-size: 30px;
+}
+#foot{
+  margin-top: 30px;
+  width:100%;
+  height:10rem;
+  background-color: #f1e3cb;
+  text-align: center;
+}
+
+#foot .link a{
+  text-decoration: none;
+  font-size: 20px;
+
+margin: 50px 200px;
+color:#0009;
+font-size: 30px;
+}
+#foot .link  a:hover{
+  color:#00bcd4;
+  font-size: 40px;
+}
+
+@media (max-width:700px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    background-color: #0001;
+    margin: 0;
+    height:30px;
+
+  }
+  nav ul{
+    margin: 0;
+    text-align: right;
+
+  }
+  nav ul li{
+    list-style-type:  none;
+  display: inline-block;
+  margin-top: 6px;
+
+  margin-right: 40px;
+  font-size: 13px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color:white;
+
+  }
+  nav ul li a:hover{
+    text-decoration:1px wavy black;
+    color:#0009;
+    font-size: 18px;
+
+  }
+  .header{
+    padding: 0;
+    margin:0;
+    text-align: center;
+    background-image: url('shop.jpg');
+    background-size: cover;
+    height:30rem;
+  }
+
+  .header h1{
+    font-size:40px;
+    color:green;
+    font-family: 'Parisienne', cursive;
+      margin: 0;
+      margin-top: 40px;
+    padding: 0;
+
+
+  }
+  form{
+    margin-top: 3rem;
+  }
+  .header .text-1{
+    width:60%;
+    height:40px;
+    border-radius:12px;
+    border: none;
+    background-color:#0009;
+    color:white;
+    outline:none;
+    outline-style: none;
+    text-align: center;
+  }
+  .header .button-1{
+  margin-top:1rem;
+  width: 15%;
+  height: 45px;
+  background-image: linear-gradient(#0009,#0002);
+  border-radius: 2rem;
+  color:white;
+  font-size: 15px;
+  outline-style: none;
+  }
+  .header .button-1:hover{
+    background-image: linear-gradient(#0009,white);
+
+  }
+  ::placeholder{
+    color: white;
+    font-size: 18px;
+  }
+
+
+
+
+
+
+
+
+
+
+  #middle{
+    width:100%;
+display:inline;
+    height:500px;
+  }
+  .one{
+    width:500px;
+    height:500px;
+  padding: 0;
+  margin: 0;
+  margin-left: 40px;
+  margin-top: 40px;
+
+  }
+  .one .iphone{
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  padding: 0;
+
+text-align: center;
+
+
+  }
+  .mobile{
+    font-size: 15px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .mobile a{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+  }
+  .mobile a:hover{
+    color:blue;
+    font-size: 30px;
+  }
+  .second{
+    width:500px;
+    height:500px;
+  padding: 0;
+  margin: 0;
+  margin-left: 60px;
+  margin-top: 40px;
+
+  }
+  .second .homef{
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  padding: 0;
+  text-align:center;
+
+  }
+  .home{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .home a{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+  }
+  .home a:hover{
+   color:blue;
+   font-size: 30px;
+  }
+  .third{
+    width:500px;
+    height:500px;
+  padding: 0;
+  margin: 0;
+  margin-left: 60px;
+  margin-top: 40px;
+
+  }
+  .third .shoe{
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  padding: 0;
+
+  }
+  .shoes{
+    font-size: 20px;
+    text-align: center;
+  }
+  .shoes a{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+  }
+  .shoes a:hover{
+   color:blue;
+   font-size: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .last{
+    width: 500px;
+    height:500px;
+    display:inline;
+  }
+  .last .one{
+    width:500px;
+    height:500px;
+  padding: 0;
+  margin: 0;
+  margin-left: 60px;
+  margin-top: 40px;
+
+  }
+  .last .one .cloth{
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  padding: 0;
+
+  }
+  .clothes{
+    font-size: 20px;
+    text-align: center;
+  }
+  .clothes a{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+  }
+  .clothes a:hover{
+   color:blue;
+   font-size: 30px;
+  }
+  .last .second{
+    width:500px;
+    height:500px;
+  padding: 0;
+  margin: 0;
+  margin-left: 60px;
+  margin-top: 40px;
+
+  }
+  .last .second .head{
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  padding: 0;
+
+  }
+  .heads{
+    font-size: 20px;
+    text-align: center;
+  }
+  .heads a{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+  }
+  .heads a:hover{
+   color:blue;
+   font-size: 30px;
+  }
+  .last .third{
+    width:500px;
+    height:500px;
+  padding: 0;
+  margin: 0;
+  margin-left: 60px;
+  margin-top: 40px;
+
+  }
+  .last .third .suit{
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  padding: 0;
+
+  }
+  .suits{
+    font-size: 20px;
+    text-align: center;
+  }
+  .suits a{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+  }
+  .suits  a:hover{
+    color:blue;
+    font-size: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer{
+    width: 100%;
+    height:500px;
+    display: inline;
+  }
+  .footer .one{
+    width:500px;
+    height:500px;
+  padding: 0;
+  margin: 0;
+  margin-left: 60px;
+  margin-top: 40px;
+
+  }
+  .footer .one .cam{
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  padding: 0;
+
+  }
+  .cams{
+    font-size: 20px;
+    text-align: center;
+  }
+  .cams a{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+  }
+  .cams a:hover{
+   color:blue;
+   font-size: 30px;
+  }
+  .footer .second{
+    width:500px;
+    height:500px;
+  padding: 0;
+  margin: 0;
+  margin-left: 60px;
+  margin-top: 40px;
+
+  }
+  .footer .second .lap{
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  padding: 0;
+
+  }
+  .laps{
+    font-size: 20px;
+    text-align: center;
+
+  }
+  .laps a{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+  }
+  .laps a:hover{
+   color:blue;
+   font-size: 30px;
+  }
+  .footer .third{
+    width:500px;
+    height:500px;
+  padding: 0;
+  margin: 0;
+  margin-left: 60px;
+  margin-top: 40px;
+
+  }
+  .footer .third .cass{
+  width: 400px;
+  height: 400px;
+margin: 30px;
+  padding: 0;
+
+  }
+  .cases{
+    font-size: 20px;
+
+    text-align: center;
+  }
+  .cases a{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+  }
+  .cases  a:hover{
+    color:blue;
+    font-size: 30px;
+  }
+  #foot{
+    margin-top: 60px;
+    width:100%;
+    height:5rem;
+    background-color:#0009;
+    text-align: center;
+  }
+
+  #foot .link a{
+    text-decoration: none;
+    font-size: 20px;
+
+  margin: 100px 200px;
+  color:#fff;
+  font-size: 20px;
+  }
+  #foot .link  a:hover{
+    color:white;
+    font-size: 30px;
+  }
+
+
+
+
+
+
+
+
+
+}

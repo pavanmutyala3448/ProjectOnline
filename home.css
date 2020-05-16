@@ -1,0 +1,233 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.container{
+  margin: 0;
+  padding: 0
+  width:100%;
+  height:auto;
+
+margin: 0 auto;
+}
+.head{
+  display: flex;
+}
+.one{
+  width:50%;
+  height:500px;
+  border:groove;
+  margin: 10px 0 10px 40px;
+
+
+}
+.two{
+  width:50%;
+  height:500px;
+  border:groove;
+  margin: 10px 40px 10px 0;
+
+
+}
+.middle{
+  display: flex;
+}
+.three{
+  width:50%;
+  height:500px;
+  border:groove;
+  margin: 10px 0 10px 40px;
+
+
+}
+.four{
+  width:50%;
+  height:500px;
+  border:groove;
+  margin: 10px 40px 10px 0;
+
+
+}
+.last{
+  display: flex;
+}
+.five{
+  width:50%;
+  height:500px;
+  border:groove;
+  margin: 10px 0 10px 40px;
+
+
+}
+.six{
+  width:50%;
+  height:500px;
+  border:groove;
+
+  margin: 10px 40px 10px 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.one .i11pro{
+  width:40%;
+  height:300px;
+  margin-right: 10rem;
+  margin-left: 10rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+.two .o8pro{
+
+    width:70%;
+    height:300px;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .three .s20{
+    width:50%;
+    height:300px;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .four .r3{
+
+      width:70%;
+      height:300px;
+      margin-right: 20rem;
+      margin-left: 10rem;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .five .s1pro{
+      width:40%;
+      height:300px;
+      margin-right: 10rem;
+      margin-left: 10rem;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .six .note8{
+      width:40%;
+      height:300px;
+      margin-right: 10rem;
+      margin-left: 10rem;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+
+
+
+
+    a{
+      text-decoration: none;
+      font-size: 20px;
+      color:black;
+
+    }
+    a:hover{
+      text-decoration: inherit;
+      font-size: 22px;
+      color:blue;
+    }
+    @media (max-width:700px) {
+
+
+
+
+      .one .i11pro{
+        width:60%;
+        height:300px;
+        margin-right: 3rem;
+        margin-left: 3rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+
+      }
+      .two .o8pro{
+
+          width:80%;
+          height:300px;
+          margin-right: 3rem;
+          margin-left: 3rem;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          text-align: center;
+        }
+        .three .s20{
+          width:60%;
+          height:300px;
+          margin-right: 3rem;
+          margin-left: 3rem;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          text-align: center;
+        }
+        .four .r3{
+
+            width:90%;
+            height:300px;
+            margin-right: 3rem;
+            margin-left: 3rem;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+          }
+          .five .s1pro{
+            width:60%;
+            height:300px;
+            margin-right: 3rem;
+            margin-left: 3rem;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+          }
+          .six .note8{
+            width:60%;
+            height:300px;
+            margin-right: 3rem;
+            margin-left: 3rem;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+          }
+
+
+
+
+
+          a{
+            text-decoration: none;
+            font-size: 8px;
+            color:blue;
+
+          }
+          a:hover{
+            text-decoration: underline;
+            font-size: 15px;
+            color:red;
+          }
+    }
